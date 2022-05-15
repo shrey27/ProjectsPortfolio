@@ -1,29 +1,29 @@
 export function Header() {
   return (
     <div>
-      <nav class='navbar center'>
-        <a href='#section-1' class='navbar-link'>
+      <nav className='navbar center'>
+        <a href='#section-1' className='navbar-link'>
           Home
         </a>
-        <a href='#section-2' class='navbar-link'>
+        <a href='#section-2' className='navbar-link'>
           About
         </a>
-        <a href='#section-3' class='navbar-link'>
+        <a href='#section-3' className='navbar-link'>
           Portfolio
         </a>
-        <a href='#section-4' class='navbar-link'>
+        <a href='#section-4' className='navbar-link'>
           Contact
         </a>
       </nav>
-      <section class='section-1 center' id='section-1'>
-        <h1 class='section-1-heading'>UI/UX Developer</h1>
+      <section className='section-1 center' id='section-1'>
+        <h1 className='section-1-heading'>UI/UX Developer</h1>
         <img
           src='images/john-smith.jpg'
           alt='Shrey Pandey'
-          class='person-img'
+          className='person-img'
         />
-        <h3 class='person-name'>Shrey Pandey</h3>
-        <a href='#section-3' class='section-1-btn'>
+        <h3 className='person-name'>Shrey Pandey</h3>
+        <a href='#section-3' className='section-1-btn'>
           Resume
         </a>
       </section>
