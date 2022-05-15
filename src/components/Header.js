@@ -18,7 +18,7 @@ export function Header() {
       <section className='section-1 center' id='section-1'>
         <h1 className='section-1-heading'>UI/UX Developer</h1>
         <img
-          src='images/john-smith.jpg'
+          src='https://res.cloudinary.com/apollo27/image/upload/v1652631587/profile_xbpwnq.jpg'
           alt='Shrey Pandey'
           className='person-img'
         />

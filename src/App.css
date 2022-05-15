@@ -109,11 +109,12 @@ html {
   letter-spacing: 1rem;
   border-bottom: 0.3rem solid var(--text);
   text-shadow: 0.2rem 0.2rem 1rem var(--heading);
+  border-radius: 10px;
 }
 
 .person-img {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   object-fit: cover;
   border-radius: 50%;
   border: 0.7rem dotted var(--background);
@@ -130,6 +131,7 @@ html {
   padding: 0.5rem 3rem;
   letter-spacing: 0.3rem;
   border-bottom: 0.3rem solid var(--text);
+  border-radius: 10px;
 }
 
 .section-1-btn {
@@ -141,6 +143,7 @@ html {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
+  border-radius: 10px;
 }
 /* End of Section 1 */
 
@@ -172,10 +175,12 @@ html {
   border: 1px solid var(--heading);
   margin: 1rem 0;
   max-width: 70rem;
+  border-radius: 10px;
 }
 
 .work h1 {
   background-color: var(--background);
+  border-radius: 10px 10px 0 0;
   margin: -1px -1px 1rem;
   color: var(--text);
   padding: 0.5rem 1rem;
@@ -253,7 +258,7 @@ html {
 }
 
 .project:hover .project-text {
-  top: 5rem;
+  top: 2rem;
   transition: top 0.3s 0.3s;
 }
 
@@ -277,8 +282,13 @@ html {
 .project:hover .project-img {
   opacity: 0.2;
 }
-
-.project-link {
+.project-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project-link-left {
   font-size: 2rem;
   font-weight: 500;
   color: #333;
@@ -287,12 +297,31 @@ html {
   padding: 0 1rem;
   background-color: #fff;
   position: absolute;
-  bottom: -5rem;
+  bottom: -3.5rem;
+  left: 3rem;
   transition: bottom 0.3s;
 }
-
-.project:hover .project-link {
-  bottom: 5rem;
+.project:hover .project-link-left {
+  bottom: 3rem;
+  left: 3rem;
+  transition: bottom 0.3s 0.3s;
+}
+.project-link-right {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: 0.3rem solid var(--background);
+  padding: 0 1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -3.5rem;
+  right: 3rem;
+  transition: bottom 0.3s;
+}
+.project:hover .project-link-right {
+  bottom: 3rem;
+  right: 3rem;
   transition: bottom 0.3s 0.3s;
 }
 /* End of Section 3 */
