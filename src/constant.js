@@ -110,3 +110,41 @@ export const projects = [
       'https://res.cloudinary.com/apollo27/image/upload/v1652630972/7_nnzqpg.png'
   }
 ];
+
+export const blogs = [
+  {
+    id: 'B1',
+    name: 'Understanding context in React JS using react hooks',
+    demo: 'https://shrey027.hashnode.dev/understanding-context-in-react-js-using-react-hooks',
+    banner:
+      'https://res.cloudinary.com/apollo27/image/upload/v1652632778/14_zhfi8g.png'
+  },
+  {
+    id: 'B2',
+    name: 'An overview on react hooks useMemo and useCallback',
+    demo: 'https://shrey027.hashnode.dev/an-overview-on-react-hooks-usememo-and-usecallback',
+    banner:
+      'https://res.cloudinary.com/apollo27/image/upload/v1652632778/11_tq0feo.png'
+  },
+  {
+    id: 'B3',
+    name: 'A complete overview of react hook UseEffect',
+    demo: 'https://shrey027.hashnode.dev/a-complete-overview-of-react-hook-useeffect',
+    banner:
+      'https://res.cloudinary.com/apollo27/image/upload/v1652632778/12_ui4ffq.png'
+  },
+  {
+    id: 'B4',
+    name: 'A practical example to understand higher order components in React JS',
+    demo: 'https://shrey027.hashnode.dev/a-practical-example-to-understand-higher-order-components-in-react-js',
+    banner:
+      'https://res.cloudinary.com/apollo27/image/upload/v1652632778/13_h9ohq0.png'
+  },
+  {
+    id: 'B5',
+    name: 'Introduction to Next JS',
+    demo: 'https://shrey027.hashnode.dev/next-js-a-wiki-page-for-characters-of-rick-and-morty',
+    banner:
+      'https://res.cloudinary.com/apollo27/image/upload/v1652632778/15_qmc2ht.png'
+  }
+];

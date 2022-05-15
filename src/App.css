@@ -270,7 +270,8 @@ html {
 }
 
 .project-technologies {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--background);
 }
 
@@ -280,7 +281,7 @@ html {
 }
 
 .project:hover .project-img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .project-link-box {
   display: flex;
@@ -328,13 +329,13 @@ html {
 
 /* Section 4 */
 .section-4 {
-  width: 100%;
-  height: 70vh;
   background-color: #333;
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .section-4-heading {
@@ -344,35 +345,71 @@ html {
   margin-bottom: 5rem;
 }
 
-.contact-form {
-  width: 50rem;
+.blog {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0.5rem #777;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.5s;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
-  background-color: #eef;
-  font-size: 1.5rem;
-  border: 0.2rem solid var(--background);
-  color: #555;
+.blog:hover {
+  box-shadow: 1rem 1rem 1rem #777;
 }
 
-.contact-form textarea {
-  height: 10rem;
-  max-height: 15rem;
-  max-width: 100%;
+.blog-text {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  top: -12rem;
+  z-index: 3;
+  transition: top 0.3s;
 }
 
-.contact-form .contact-form-btn {
-  background-color: var(--background);
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1rem;
-  cursor: pointer;
+.blog:hover .blog-text {
+  top: 2rem;
+  transition: top 0.3s 0.3s;
 }
+
+.blog-name {
+  font-size: 2.65rem;
+  font-weight: 700;
+  padding: 1rem;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.blog-img {
+  width: 40rem;
+  transition: opacity 0.3s;
+}
+
+.blog:hover .blog-img {
+  opacity: 0.1;
+}
+
+.blog-link {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+  letter-spacing: 0.1rem;
+  border: 0.3rem solid var(--background);
+  padding: 0 1rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5rem;
+  transition: bottom 0.3s;
+}
+.blog:hover .blog-link {
+  bottom: 3rem;
+  transition: bottom 0.3s 0.3s;
+}
+
 /* End of Section 4 */
 
 /* Section 5 */
