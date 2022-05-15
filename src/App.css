@@ -415,26 +415,22 @@ html {
 /* Section 5 */
 .section-5 {
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   background-color: #222;
   flex-direction: column;
 }
 
 .social-media {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .social-media-link {
-  margin: 0 2rem;
-  padding: 0.7rem;
-  background-color: var(--background);
+  margin: 0 0.5rem;
   border-radius: 0.5rem;
   display: inline-block;
-}
-
-.social-media-link i {
-  font-size: 3rem;
-  color: #fff;
+  background-color: var(--text);
+  border-radius: 50%;
+  padding: 0.5rem 0.5rem 0.15rem;
 }
 
 .copyright {
