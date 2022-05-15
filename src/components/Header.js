@@ -23,9 +23,9 @@ export function Header() {
           className='person-img'
         />
         <h3 className='person-name'>Shrey Pandey</h3>
-        <a href='#section-3' className='section-1-btn'>
+        {/* <a href='#section-3' className='section-1-btn'>
           Resume
-        </a>
+        </a> */}
       </section>
     </div>
   );
