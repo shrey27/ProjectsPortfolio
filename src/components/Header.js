@@ -6,13 +6,13 @@ export function Header() {
           Home
         </a>
         <a href='#section-2' className='navbar-link'>
-          About
+          Experience
         </a>
         <a href='#section-3' className='navbar-link'>
-          Portfolio
+          Projects
         </a>
         <a href='#section-4' className='navbar-link'>
-          Contact
+          Blogs
         </a>
       </nav>
       <section className='section-1 center' id='section-1'>

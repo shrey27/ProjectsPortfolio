@@ -451,10 +451,6 @@ html {
   .service {
     margin: 3rem 2rem;
   }
-
-  .section-4 {
-    height: 80vh;
-  }
 }
 
 @media (max-width: 800px) {
