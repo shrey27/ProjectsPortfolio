@@ -23,9 +23,14 @@ export function Header() {
           className='person-img'
         />
         <h3 className='person-name'>Shrey Pandey</h3>
-        {/* <a href='#section-3' className='section-1-btn'>
+        <a
+          href='https://drive.google.com/file/d/1kdRwX_vfFUvzTuwYkPb_r4-_ATM5-GYE/view?usp=sharing'
+          className='section-1-btn'
+          target='_blank'
+          rel='noreferrer'
+        >
           Resume
-        </a> */}
+        </a>
       </section>
     </div>
   );
