@@ -10,11 +10,9 @@ export const skills = [
   "https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png",
   "https://img.icons8.com/color/88/000000/chakra-ui.png",
   "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/75/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-shadow-tal-revivo.png",
-  "https://www.asquero.com/static/img/topics/jest.png",
-  "https://logowik.com/content/uploads/images/nodejs.jpg",
+  "https://www.ictdemy.com/images/5728/nodejs_logo.png",
+  "https://www.ictdemy.com/images/5728/mdb.png",
   "https://pngimg.com/uploads/github/github_PNG83.png",
-  "https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png",
-  "https://iconape.com/wp-content/files/ep/370863/svg/370863.svg",
 ];
 
 export const workex = [
