@@ -1,3 +1,4 @@
+import React from 'react';
 export function Footer() {
   return (
     <footer class='section-5 center'>

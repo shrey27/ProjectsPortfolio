@@ -1,3 +1,4 @@
+import React from 'react';
 import { projects } from '../constant';
 
 export function Projects() {

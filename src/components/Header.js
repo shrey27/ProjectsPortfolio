@@ -1,3 +1,6 @@
+import React from 'react';
+import {assets} from '../constant';
+
 export function Header() {
   return (
     <div>
@@ -18,13 +21,13 @@ export function Header() {
       <section className="section-1 center" id="section-1">
         <h1 className="section-1-heading">UI/UX Developer</h1>
         <img
-          src="https://res.cloudinary.com/apollo27/image/upload/v1652631587/profile_xbpwnq.jpg"
+          src={assets.profilepic}
           alt="Shrey Pandey"
           className="person-img"
         />
         <h3 className="person-name">Shrey Pandey</h3>
         <a
-          href="https://drive.google.com/file/d/1QacewIvQ7iu6U-iml7V_D3pH2lq_ojQP/view?usp=sharing"
+          href={assets.resume}
           className="section-1-btn"
           target="_blank"
           rel="noreferrer"

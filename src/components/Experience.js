@@ -1,3 +1,4 @@
+import React from 'react';
 import { workex } from "../constant";
 
 export function Experience() {

@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { Header, Skills, Projects, Blogs, Footer } from './components';
 

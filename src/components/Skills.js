@@ -1,3 +1,4 @@
+import React from 'react';
 import { skills } from "../constant";
 import { Experience } from "./Experience";
 

@@ -1,3 +1,4 @@
+import React from 'react';
 import { blogs } from '../constant';
 
 export function Blogs() {

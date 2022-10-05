@@ -89,7 +89,7 @@ export const projects = [
   {
     id: "P4",
     name: "Quizeasy",
-    tech: "React JS / TypeScript",
+    tech: "React-TypeScript / Unit Testing",
     code: "https://github.com/shrey27/Quizeasy",
     demo: "https://quizeasy.vercel.app/",
     banner:
@@ -106,21 +106,39 @@ export const projects = [
   },
   {
     id: "P6",
+    name: "LeggionAthletics_FS",
+    tech: "MERN Stack",
+    code: "https://github.com/shrey27/LegionAthletics_FS",
+    demo: "https://legion-athletics-fs.vercel.app/",
+    banner:
+      "https://res.cloudinary.com/apollo27/image/upload/v1664949998/ss-9_jtukss.jpg",
+  },
+  {
+    id: "P7",
+    name: "EngineeringMavericks_FS",
+    tech: "MERN Stack",
+    code: "https://github.com/shrey27/EngineeringMavericks_FS",
+    demo: "http://engineering-mavericks-fs.vercel.app/",
+    banner:
+      "https://res.cloudinary.com/apollo27/image/upload/v1664949920/ss-3_ffrh9e.jpg",
+  },
+  {
+    id: "P8",
+    name: "Webpack Starter Kit",
+    tech: "Webpack",
+    code: "https://github.com/shrey27/Notestack_webpack",
+    demo: "http://notestack-webpack.vercel.app/",
+    banner:
+      "https://res.cloudinary.com/apollo27/image/upload/v1664949920/ss-7_xcbxps.jpg",
+  },
+  {
+    id: "P9",
     name: "Rick & Morty Wiki",
     tech: "Next JS / Rebass",
     code: "https://github.com/shrey27/rick_and_morty_wiki",
     demo: "https://rickandmorty-info.vercel.app/",
     banner:
       "https://res.cloudinary.com/apollo27/image/upload/v1652630973/6_vv7ugb.png",
-  },
-  {
-    id: "P7",
-    name: "Evernote Clone",
-    tech: "React JS / Class Based Components",
-    code: "https://github.com/shrey27/evernote-firebase-app",
-    demo: "https://evernote027.netlify.app/",
-    banner:
-      "https://res.cloudinary.com/apollo27/image/upload/v1652630972/7_nnzqpg.png",
   },
 ];
 
@@ -161,3 +179,8 @@ export const blogs = [
       "https://res.cloudinary.com/apollo27/image/upload/v1652632778/15_qmc2ht.png",
   },
 ];
+
+export const assets = {
+  profilepic:'https://res.cloudinary.com/apollo27/image/upload/v1652631587/profile_xbpwnq.jpg',
+  resume:'https://drive.google.com/file/d/1QacewIvQ7iu6U-iml7V_D3pH2lq_ojQP/view?usp=sharing'
+}
